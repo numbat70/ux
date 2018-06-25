@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">  
+	<head>   
+		<meta charset="utf-8">  
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<title>Scottish Enterprise :: Export Customer Journey</title>
+		<!-- Bootstrap -->
+		<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+		<link href="css/calc.css" rel="stylesheet" media="screen">
+		<link href="css/calc.css" rel="stylesheet" media="print">
+		<!-- <link href="css/calc.css" rel="stylesheet" media="print"> -->
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+		<!--Sublime Text HTML Beutify = Control-Alt-Shift-F or Command-Option-Shift-F-->
+	</head>
+	<body>
+
+		<h1>Your project's UX plan</h1>
+		<button type="button" class="btn btn-link MKnoPrint" id="removeUnwanted2">Hide unselected items</button>
+
+		
+		<div class="container" style="min-width: 6em; width:99%; float: left; max-width: 99%; border: none">
+			<!--  SPACER  -->
+			<!--Header Row --> 
+			<!--Content Row -->
+			<div class="row rowCalc">
+				<!--Planning and Discovery -->
+				<div class="colux colCol colWhite" id="">
+					<div class="colItemBold colBlue clipChevron" id="">Planning and Discovery</div>
+					<div class="colItem ignore" id="i11"> UX Questionaire  </div>
+					<div class="colItem ignore" id="i12"> UX Project Plan  </div>
+					<div class="colItem ignore" id="i13"> Listening Tour  </div>
+					<div class="colItem ignore" id="i14"> Opportunity Workshop  </div>
+					<div class="colItem ignore" id="i15"> Project Brief  </div>
+					<div class="colItem ignore" id="i16"> Strategy Workshop  </div>
+				</div> 
+				
+				
+				
+				<div class="colux colWhite" id="">
+					<div class="colItemBold colGreen clipChevron" id="">Research</div>
+					<div class="colItem ignore" id="i21">  Learning Plan </div>
+					<div class="colItem ignore" id="i22">  Guerilla User Research </div>
+					<div class="colItem ignore" id="i23">  Proto Personas </div>
+					<div class="colItem ignore" id="i24">  Hueristic Markup </div>
+					<div class="colItem ignore" id="i25">  Comparative Assesment </div>
+					<div class="colItem ignore" id="i26">  Content Patterns</div>
+				</div>
+				
+				
+			
+				
+				
+				<div class="colux colWhite" id="">
+					<div class="colItemBold colPurple clipChevron" id="">Testing and Validation</div>
+					<div class="colItem ignore" id="i31">  Design Brief </div>
+					<div class="colItem ignore" id="i32">  Design Principles </div>
+					<div class="colItem ignore" id="i33">  Sketching </div>
+					<div class="colItem ignore" id="i34">  SketchBoards </div>
+					<div class="colItem ignore" id="i35">  Task Flow </div>
+					<div class="colItem ignore" id="i36">  Wireframes</div>
+				</div>
+
+				<div class="colux colWhite" id="">
+					<div class="colItemBold colRed clipChevron" id="">Design</div>
+					<div class="colItem ignore" id="i41"> Paper & Interactive Prototypes  </div>
+					<div class="colItem ignore" id="i42"> Black Hat Session  </div>
+					<div class="colItem ignore" id="i43"> Quick And Dirty Usability Test </div>
+					<div class="colItem ignore" id="i44"> Five Second Test  </div>
+					<div class="colItem ignore" id="i45"> UX Health Check  </div>
+				</div>
+
+			</div>
+		</div>
+		<br>
+		<!--Remove unwanted entries that have not been selected / highlighted-->
+		<button type="button" class="btn btn-success MKnoPrint" id="removeUnwanted">Hide unselected items</button>
+		<button type="button" class="btn btn-primary MKnoPrint" id="showAll" >Show all items</button>
+		
+		<br>
+		<br>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/calc.js"></script> 
+	</body>
+</html>
